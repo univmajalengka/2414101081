@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wisata Telaga Biru Nila</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+<!-- HEADER DAN BANNER -->
+<header class="w-full bg-blue-600 text-white p-4 shadow-lg">
+    <div class="container mx-auto flex items-center justify-between">
+        <h1 class="text-2xl font-bold">Telaga Biru Nila</h1>
+        <nav class="hidden md:flex space-x-6 text-lg">
+            <a href="#beranda" class="hover:text-yellow-300">Beranda</a>
+            <a href="#about" class="hover:text-yellow-300">About</a>
+            <a href="#obyek" class="hover:text-yellow-300">Obyek Wisata</a>
+            <a href="#fasilitas" class="hover:text-yellow-300">Fasilitas Wisata</a>
+            <a href="#paket" class="hover:text-yellow-300">Paket Wisata</a>
+            <a href="#pemesanan" class="hover:text-yellow-300">Pemesanan</a>
+            <a href="#galeri" class="hover:text-yellow-300">Galery</a>
+        </nav>
+        <button id="menuBtn" class="md:hidden text-white text-3xl">☰</button>
+    </div>
+</header>
+
+<!-- MOBILE NAV -->
+<div id="mobileMenu" class="hidden bg-blue-700 text-white p-4 space-y-3 md:hidden">
+    <a href="#beranda" class="block">Beranda</a>
+    <a href="#about" class="block">About</a>
+    <a href="#obyek" class="block">Obyek Wisata</a>
+    <a href="#fasilitas" class="block">Fasilitas Wisata</a>
+    <a href="#paket" class="block">Paket Wisata</a>
+    <a href="#pemesanan" class="block">Pemesanan</a>
+    <a href="#galeri" class="block">Galery</a>
+</div>
+
+<!-- BANNER FOTO -->
+<section id="beranda" class="mt-4">
+    <div class="container mx-auto">
+        <div class="w-full h-64 md:h-96 overflow-hidden rounded-xl shadow-lg">
+            <img src="img/telaga biru 2.jpeg" alt="Banner Telaga Biru Nila" class="w-full h-full object-cover" />
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-10">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-4">Tentang Telaga Biru Nila</h2>
+        <p class="text-lg max-w-2xl mx-auto">
+            Telaga Biru Nila merupakan destinasi wisata alam yang terletak di Desa Padaherang, Kecamatan Sindang, Kabupaten Majalengka. Dikenal dengan kejernihan airnya yang luar biasa dan warna biru alami yang menawan, telaga ini menjadi salah satu spot wisata unggulan yang menawarkan perpaduan keindahan alam dan suasana tenang khas pedesaan.
+
+Keunikan utama Telaga Biru Nila terletak pada ikan nila berwarna-warni yang hidup bebas di dalam telaga. Airnya yang sangat jernih membuat pengunjung dapat melihat dengan jelas ikan-ikan berenang di dasar telaga tanpa perlu menyelam. Panorama ini menciptakan pengalaman yang menenangkan sekaligus memanjakan mata.
+        </p>
+    </div>
+</section>
+
+<!-- OBYEK WISATA -->
+<section id="obyek" class="bg-white py-10">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6">Obyek Wisata</h2>
+        <p class="text-lg max-w-3xl mx-auto mb-6">Pengunjung dapat menikmati keindahan telaga, spot foto menarik, serta wahana air.</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <img src="img/ob1.jpeg" class="rounded-lg shadow" />
+            <img src="img/ob2.jpeg" class="rounded-lg shadow" />
+            <img src="img/ob4.jpeg" class="rounded-lg shadow" />
+        </div>
+    </div>
+</section>
+
+<!-- FASILITAS -->
+<section id="fasilitas" class="py-10 bg-gray-100">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6">Fasilitas Wisata</h2>
+        <ul class="text-lg space-y-2">
+            <li>- Area Parkir</li>
+            <li>- Mushola</li>
+            <li>- Gazebo & Tempat Istirahat</li>
+            <li>- Warung Makanan & Minuman</li>
+            <li>- Toilet</li>
+            <li>- Kolam renang anak-anak</li>
+        </ul>
+    </div>
+</section>
+
+<!-- PAKET WISATA -->
+<section id="paket" class="py-10">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6">Paket Wisata</h2>
+
+        <div class="flex flex-col md:flex-row gap-6 justify-center">
+
+            <!-- Paket 1 -->
+            <div class="bg-white rounded-xl shadow p-4 text-left w-full md:w-1/3">
+                <img src="img/perahu.jpg" class="rounded-lg mb-3 w-full h-40 object-cover" />
+                <h3 class="text-xl font-bold mb-1">Paket Perahu </h3>
+                <p class="text-gray-600 mb-2">Keliling telaga dengan perahu wisata.</p>
+                <p class="text-blue-600 font-bold text-lg">Rp20.000</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- VIDEO -->
+<section id="galeri" class="py-10 bg-gray-100">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6">Video Wisata</h2>
+        <div class="aspect-w-16 aspect-h-9 mx-auto max-w-3xl">
+            <iframe class="w-full h-64 md:h-96 rounded-xl shadow-lg"
+                src="https://www.youtube.com/embed/iN-ZJmh95Fk" allowfullscreen></iframe>
+        </div>
+    </div>
+</section>
+
+<!-- PEMESANAN -->
+<section id="pemesanan" class="py-10">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6">Pemesanan</h2>
+        <p class="text-lg mb-4">Hubungi nomor di bawah untuk pemesanan paket wisata:</p>
+        <p class="font-bold text-blue-600 text-2xl">0838-1284-8312</p>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-blue-700 text-white p-6 text-center mt-10">
+    <p>&copy; <?php echo date('Y'); ?> Telaga Biru Nila. All Rights Reserved.</p>
+</footer>
+
+<script>
+    const btn = document.getElementById('menuBtn');
+    const menu = document.getElementById('mobileMenu');
+    btn.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+    });
+</script>
+
+</body>
+</html>
